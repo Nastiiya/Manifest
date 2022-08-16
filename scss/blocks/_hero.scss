@@ -1,0 +1,45 @@
+.banner{
+  &__hero{
+    background-image: url("../image/mobile-bg.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    padding-top: 70px;
+    //max-width: $width;
+    //margin: 0 auto;
+
+    @include media($md){
+      background-image: url("../image/tablet-bg.jpg");
+      height: 320px;
+      padding-top: 30px;
+    }
+
+    @include media($lg){
+      background-image: url("../image/desktop-bg.jpg");
+      min-height: 600px;
+      height: 41vw;
+    }
+
+
+    &-description {
+      font-family: $font-secondary;
+      font-weight: 600;
+      line-height: 50px;
+      font-size: 30px;
+      letter-spacing: 0.05em;
+
+      @include media($md){
+        font-size: 36px;
+        width: 600px;
+      }
+
+      @include media($lg){
+        font-size: 48px;
+        width: 720px;
+      }
+    }
+
+  }
+}
+
+

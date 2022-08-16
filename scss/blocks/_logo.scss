@@ -1,0 +1,13 @@
+.logo{
+  &__img{
+    width: 145px;
+    height: 13px;
+
+    @include media($lg){
+      width: 141px;
+      height: 12px;
+    }
+  }
+
+
+}

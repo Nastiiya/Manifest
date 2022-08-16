@@ -1,0 +1,44 @@
+.nav{
+  @include media($lg){
+    margin-left: auto;
+  }
+
+  &__list{
+    display: none;
+
+
+    @include media ($lg){
+      //display: block;
+      display: flex;
+      gap: 40px;
+      font-size: 14px;
+    }
+
+    //@media screen and (min-width: $lg) {
+    //  display: block;
+    //}
+  }
+
+  &__link{
+    text-transform: uppercase;
+    color: $black-default;
+    text-decoration: none;
+    font-family: $font-primary;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+  }
+
+  &__btn {
+
+    @include media ($lg){
+      display: none;
+    }
+    //@media screen and (min-width: $lg) {
+    //  display: none;
+    //}
+
+    }
+
+}
+
+

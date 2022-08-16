@@ -1,0 +1,37 @@
+/***********FONTS**********/
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Red Hat Display', sans-serif;
+$font-size-default: 16px;
+$font-size-title: 40px;
+$font-size-logo: 35px;
+
+/***********COLORS*********/
+$primary: #565656;
+$secondary:  #7B7B7B;
+$white-default: #FFFFFF;
+$black-default: #000000;
+
+/***********WIDTHS**********/
+$width: 1440px;
+$content-width: 1170px;
+
+
+/**********Breakpoints******/
+$lg: 1440px;
+$md: 768px;
+$md-max: lg - 1;
+$sm: 320px;
+$sm-max:$md - 1;
+
+/**********Padding**********/
+$sm-padding: 10px;
+$md-padding: 35px;
+$lg-padding: 135px;
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+body{
+  width: 100%;
+  //max-width: $lg;
+  min-width: $sm;
+}
+
+html{
+  font-size: $font-size-default;
+}
+
+.container {
+  width: 100% ;
+  max-width: $content-width ;
+  margin: 0 auto;
+  padding-left: $sm-padding;
+  padding-right: $sm-padding;
+  box-sizing: border-box;
+
+  @include media($md){
+    padding: 0 $md-padding;
+  }
+}
+
+.flex {
+  display: flex;
+}
